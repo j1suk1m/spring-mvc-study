@@ -16,3 +16,12 @@
 - [HTTP 응답 데이터 - 단순 텍스트, HTML](https://github.com/j1suk1m/spring-mvc-study/commit/0105b333157d021cf1a6df8f8688457013d54a6d)
 - [HTTP 응답 데이터 - API JSON](https://github.com/j1suk1m/spring-mvc-study/commit/890fb32d4afe0da5780702b2ec432a2fd30c5ca6)
 - 정리
+
+### section 4: 서블릿, JSP, MVC 패턴
+- [회원 관리 웹 애플리케이션 요구 사항](https://github.com/j1suk1m/spring-mvc-study/commit/d3d55d5baddb2bb9c637ca1814af7f4dd660278a)
+- [서블릿으로 회원 관리 웹 애플리케이션 만들기](https://github.com/j1suk1m/spring-mvc-study/commit/a0dc539b0ec0bc24a682d7252a8a92999010b355)
+- [JSP로 회원 관리 웹 애플리케이션 만들기](https://github.com/j1suk1m/spring-mvc-study/commit/e30b8792db4eabafe864796e6e51ebb8576170f4)
+- MVC 패턴 - 개요
+- [MVC 패턴 - 적용](https://github.com/j1suk1m/spring-mvc-study/commit/d7b595bec0255f74afe9f1812df766be1657d456)
+- MVC 패턴 - 한계
+- 정리
