@@ -35,3 +35,12 @@
 - [유연한 컨트롤러 1 - v5](https://github.com/j1suk1m/spring-mvc-study/commit/8ab99f8b875f54b1b987bd840bd8efaf1a0e3d20)
 - [유연한 컨트롤러 2 - v5](https://github.com/j1suk1m/spring-mvc-study/commit/3fde510035366c29ee3bbb6411533e587a1bbe4c)
 - 정리
+
+### section 6: 스프링 MVC - 구조 이해
+- 스프링 MVC 전체 구조
+- [핸들러 매핑과 핸들러 어댑터](https://github.com/j1suk1m/spring-mvc-study/commit/9236320eb3d99347fb4a1ecfca26e6319a5951e1)
+- [뷰 리졸버](https://github.com/j1suk1m/spring-mvc-study/commit/25c154f37f72f56767b977a3b4f44b5e82356f8a)
+- [스프링 MVC - 시작하기](https://github.com/j1suk1m/spring-mvc-study/commit/19ced8cabf980111008be6775bf796cda0173ae0)
+- [스프링 MVC - 컨트롤러 통합](https://github.com/j1suk1m/spring-mvc-study/commit/816f309602fc8a8d535986079367a6259600373c)
+- [스프링 MVC - 실용적인 방식](https://github.com/j1suk1m/spring-mvc-study/commit/cfffb4040c1b6eae818f0e6cdfb668a7f8178716)
+- 정리
