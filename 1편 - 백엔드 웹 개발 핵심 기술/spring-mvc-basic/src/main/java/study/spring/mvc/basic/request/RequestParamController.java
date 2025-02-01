@@ -6,9 +6,11 @@ import java.io.IOException;
 import java.util.Map;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import study.spring.mvc.basic.HelloData;
 
 @Controller
 @Slf4j
@@ -107,6 +109,28 @@ public class RequestParamController {
     @ResponseBody
     public String getRequestParamMap(@RequestParam Map<String, Object> paramMap) {
         log.info("name = {}, age = {}", paramMap.get("name"), paramMap.get("age"));
+        return "ok";
+    }
+
+    /**
+     * @ModelAttribute 조회
+     * 파라미터 - 객체 바인딩
+     * Model에 자동 추가
+     */
+    @RequestMapping("/model-attribute-v1")
+    @ResponseBody
+    public String getModelAttributeV1(@ModelAttribute HelloData helloData) {
+        log.info("name = {}, age = {}", helloData.getName(), helloData.getAge());
+        return "ok";
+    }
+
+    /**
+     * @ModelAttribute 생략
+     */
+    @RequestMapping("/model-attribute-v2")
+    @ResponseBody
+    public String getModelAttributeV2(HelloData helloData) {
+        log.info("name = {}, age = {}", helloData.getName(), helloData.getAge());
         return "ok";
     }
 
