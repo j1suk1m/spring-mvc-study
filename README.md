@@ -44,3 +44,20 @@
 - [스프링 MVC - 컨트롤러 통합](https://github.com/j1suk1m/spring-mvc-study/commit/816f309602fc8a8d535986079367a6259600373c)
 - [스프링 MVC - 실용적인 방식](https://github.com/j1suk1m/spring-mvc-study/commit/cfffb4040c1b6eae818f0e6cdfb668a7f8178716)
 - 정리
+
+### section 7: 스프링 MVC - 기본 기능
+- [프로젝트 생성](https://github.com/j1suk1m/spring-mvc-study/commit/86e9fc2771bd9c248e7c7e8368e05280aabf03fe)
+- [로깅 간단히 알아보기](https://github.com/j1suk1m/spring-mvc-study/commit/c8204dc056f5ff53330872eb465cc4ca30c93ce0)
+- [요청 매핑](https://github.com/j1suk1m/spring-mvc-study/commit/5be7ac7785453f43da9b82d965de41898c2ccf52)
+- [요청 매핑 - API 예시](https://github.com/j1suk1m/spring-mvc-study/commit/1eba0e9ac0bf23aba866a0da767ca1f1e1904889)
+- [HTTP 요청 - 기본, 헤더 조회](https://github.com/j1suk1m/spring-mvc-study/commit/fe9682caa412133b189b70fb912e2016df9391db)
+- [HTTP 요청 파라미터 - 쿼리 파라미터, HTML Form](https://github.com/j1suk1m/spring-mvc-study/commit/02ecc7c5b836ad00b6e5b1129d1be7cbd760d68d)
+- [HTTP 요청 파라미터 - @RequestParam](https://github.com/j1suk1m/spring-mvc-study/commit/ae02f9e647c28ffe9d721689198451b81204a4d9)
+- [HTTP 요청 파라미터 - @ModelAttribute](https://github.com/j1suk1m/spring-mvc-study/commit/62a7b0dac643f848f9351e4acf58f93b864f1d22)
+- [HTTP 요청 메시지 - 단순 텍스트](https://github.com/j1suk1m/spring-mvc-study/commit/56ce8a731fe1052acec2ab6b385a8894e3d490ea)
+- [HTTP 요청 메시지 - JSON](https://github.com/j1suk1m/spring-mvc-study/commit/056d4ff5cedce1e97cd180a87bf67b01e7b0ea10)
+- [응답 - 정적 리소스, 뷰 템플릿](https://github.com/j1suk1m/spring-mvc-study/commit/ccf127344ef31e399f56829e6a87e629b7a1599a)
+- [HTTP 응답 - HTTP API, 메시지 바디에 직접 입력](https://github.com/j1suk1m/spring-mvc-study/commit/5453c4a1d50a0b9afbac1faca78275db848f64c2)
+- HTTP 메시지 컨버터
+- 요청 매핑 핸들러 어댑터 구조
+- 정리
