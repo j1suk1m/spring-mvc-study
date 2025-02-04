@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import study.spring.mvc.domain.item.Item;
 import study.spring.mvc.domain.item.ItemRepository;
 import study.spring.mvc.domain.item.ItemUpdateRequestDto;
@@ -92,10 +93,24 @@ public class BasicItemController {
     /**
      * PRG: Post/Redirect/Get
      */
-    @PostMapping("/add")
+    // @PostMapping("/add")
     public String addItemV5(Item item) {
         itemRepository.save(item);
-        return "redirect:/basic/items/" + item.getId();
+        return "redirect:/basic/items/" + item.getId(); // URL 인코딩 안 됨 -> 위험!
+    }
+
+    /**
+     * RedirectAttributes의 기능
+     * 1. URL 인코딩
+     * 2. Path Variable 바인딩: {itemId}
+     * 3. 쿼리 파라미터 처리: ?status=true
+     */
+    @PostMapping("/add")
+    public String addItemV6(Item item, RedirectAttributes redirectAttributes) {
+        Item savedItem = itemRepository.save(item);
+        redirectAttributes.addAttribute("itemId", savedItem.getId());
+        redirectAttributes.addAttribute("status", true);
+        return "redirect:/basic/items/{itemId}";
     }
 
     @GetMapping("/{itemId}/edit")
