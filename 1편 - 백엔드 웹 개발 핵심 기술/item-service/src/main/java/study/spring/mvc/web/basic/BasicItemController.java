@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import study.spring.mvc.domain.item.Item;
 import study.spring.mvc.domain.item.ItemRepository;
@@ -29,6 +30,16 @@ public class BasicItemController {
         Item item = itemRepository.findById(itemId);
         model.addAttribute("item", item);
         return "basic/item";
+    }
+
+    @GetMapping("/add")
+    public String showAddForm() {
+        return "basic/addForm";
+    }
+
+    @PostMapping("/add")
+    public String addItem() {
+        return "xxxxx";
     }
 
     /**
