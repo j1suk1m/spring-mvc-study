@@ -61,3 +61,17 @@
 - HTTP 메시지 컨버터
 - 요청 매핑 핸들러 어댑터 구조
 - 정리
+
+### section 8: 스프링 MVC - 웹 페이지 만들기
+- [프로젝트 생성](https://github.com/j1suk1m/spring-mvc-study/commit/cef258c4ee8253aaf08cbe679f4907c659496dc7)
+- 요구 사항 분석
+- [상품 도메인 개발](https://github.com/j1suk1m/spring-mvc-study/commit/73309e2cd0d3f492ae9f018777a73eeaa7968f80)
+- [상품 서비스 HTML](https://github.com/j1suk1m/spring-mvc-study/commit/764078fe0fc51207d34bdca4be9e57691849a118)
+- [상품 목록 - 타임리프](https://github.com/j1suk1m/spring-mvc-study/commit/af83bea7c4339a47bb85a063e5273db149451cd6)
+- [상품 상세](https://github.com/j1suk1m/spring-mvc-study/commit/98abfef99f236ebf82a066d5cb7553842c9d647a)
+- [상품 등록 폼](https://github.com/j1suk1m/spring-mvc-study/commit/753a255ade5ebaa94c0c26cb3be3c347f49494c5)
+- [상품 등록 처리 - @ModelAttribute](https://github.com/j1suk1m/spring-mvc-study/commit/288d4b3a37b1a10b922efa00cc5e8b8172916ac5)
+- [상품 수정](https://github.com/j1suk1m/spring-mvc-study/commit/0019584b426d08f2684c65eb6f810cc8b40ab811)
+- [PRG Post/Redirect/Get](https://github.com/j1suk1m/spring-mvc-study/commit/8153e279bff7f9633ab3201a57b386173fe2dff8)
+- [RedirectAttributes](https://github.com/j1suk1m/spring-mvc-study/commit/526cb66c7b4a874c36885e390ee4a7c9a0ea0c77)
+- 정리
