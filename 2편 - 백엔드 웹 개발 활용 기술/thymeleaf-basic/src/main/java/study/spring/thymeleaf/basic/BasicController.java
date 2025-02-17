@@ -72,6 +72,14 @@ public class BasicController {
         return "basic/date";
     }
 
+    @GetMapping("/link")
+    public String renderLinkView(Model model) {
+        model.addAttribute("param1", "data1");
+        model.addAttribute("param2", "data2");
+
+        return "basic/link";
+    }
+
     @Data
     @AllArgsConstructor
     static class User {
