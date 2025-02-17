@@ -105,6 +105,12 @@ public class BasicController {
         return "basic/each";
     }
 
+    @GetMapping("/condition")
+    public String renderConditionView(Model model) {
+        addUsers(model);
+        return "basic/condition";
+    }
+
     private void addUsers(Model model) {
         User userA = new User("userA", 10);
         User userB = new User("userB", 20);
