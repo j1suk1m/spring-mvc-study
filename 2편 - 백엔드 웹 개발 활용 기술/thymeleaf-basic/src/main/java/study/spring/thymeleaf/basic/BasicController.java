@@ -111,6 +111,12 @@ public class BasicController {
         return "basic/condition";
     }
 
+    @GetMapping("/comments")
+    public String renderCommentsView(Model model) {
+        model.addAttribute("data", "Spring!");
+        return "basic/comments";
+    }
+
     private void addUsers(Model model) {
         User userA = new User("userA", 10);
         User userB = new User("userB", 20);
