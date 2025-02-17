@@ -99,6 +99,22 @@ public class BasicController {
         return "basic/attribute";
     }
 
+    @GetMapping("/each")
+    public String renderEachView(Model model) {
+        addUsers(model);
+        return "basic/each";
+    }
+
+    private void addUsers(Model model) {
+        User userA = new User("userA", 10);
+        User userB = new User("userB", 20);
+        User userC = new User("userC", 30);
+
+        List<User> users = new ArrayList<>(List.of(userA, userB, userC));
+
+        model.addAttribute("users", users);
+    }
+
     @Data
     @AllArgsConstructor
     static class User {
