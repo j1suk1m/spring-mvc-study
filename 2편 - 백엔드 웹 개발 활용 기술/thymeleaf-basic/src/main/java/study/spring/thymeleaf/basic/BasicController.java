@@ -94,6 +94,11 @@ public class BasicController {
         return "basic/operation";
     }
 
+    @GetMapping("/attribute")
+    public String renderAttributeView(Model model) {
+        return "basic/attribute";
+    }
+
     @Data
     @AllArgsConstructor
     static class User {
